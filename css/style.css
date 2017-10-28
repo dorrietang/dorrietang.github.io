@@ -1,0 +1,136 @@
+h1 {
+	font-family: "Assistant";
+}
+
+h2 {
+	font-family: "Assistant";
+}
+
+p {
+	font-family: "Assistant";
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-family: "Assistant";
+}
+
+/* style classes using . ; ids using # */
+.sidebar {
+	background-color: rgba(200, 200, 200, 0.9);
+	position: fixed;
+	height: 90%;
+	width: 15%;
+	margin: auto;
+	top: 10px;
+	left: 20px;
+	padding-top: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+}
+
+.main {
+	background-color: rgba(250, 250, 250, 0.9);
+	position: fixed;
+	height: 90%;
+	width: 60%;
+	top: 10px;
+	right: 40px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 70px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.links {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.work {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	/*
+	display: block;/*
+  	width: 100%;
+  	height: auto;*/
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(50,50,50);
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  padding: 10%;
+}
+
+.section{
+	display: flex;
+	flex-flow: row wrap;
+	border-top: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.bullet{
+	margin: 10px;
+	color: #DB8EC0
+}
+
+.background{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+#name {
+	color: black;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+#portrait {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+#description {
+	padding-top: 20px;
+}
+
+#connect {
+	padding-top: 40px;
+}
