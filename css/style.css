@@ -7,23 +7,33 @@ body {
 }
 
 h2 {
-	font-family: "Assistant";
+	/* section titles */
+	color: rgb(100, 100, 100);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 40px;
 }
 
 p {
 	font-family: "Assistant";
 }
 
+a {
+	color: inherit;
+	text-decoration-style: dotted;
+	target: "_blank";
+}
+
+a:hover {
+	color: rgb(200, 200, 200);
+}
+
 /* NOTE TO SELF: style classes using . and ids using # */
 
 /* Title */
 
-.img-circle {
-    border-radius: 50%;
-}
-
 #me-name {
-	color: rgb(50, 50, 50);
+	color: rgb(100, 100, 100);
 	font-family: 'Work Sans', sans-serif;
 	font-size: 4rem;
 	font-weight: 300;
@@ -35,40 +45,64 @@ p {
 	height: 150px;
 	width: 150px;
 	overflow: hidden;
+	border-radius: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/* Main */
+/* About */
+
+#about-description {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+/* Experience */ 
+
+.grid-row {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.grid-container {
+	width: 30%;
+	margin: 13px;
+}
+
+.exp-img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.exp-date {
+	text-align: center;
+	color: rgb(150, 150, 150);
+	font-family: "Raleway";
+}
+
+.exp-description {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Contact */
+
+#links {
+	width: 132px;
+	margin: auto;
+	margin-bottom: 50px;
+}
 
 .links-img {
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
 }
 
-.work {
-	display: inline-block;
-	width: 200px;
-	height: 200px;
-	margin: 20px;
-}
-
-.section{
-	display: flex;
-	flex-flow: row wrap;
-	border-top: 10px;
-}
-
-.container {
-  position: relative;
-}
-
-#description {
-	padding-top: 20px;
-}
-
-#connect {
-	padding-top: 40px;
-}
+/* add responsive layout */
