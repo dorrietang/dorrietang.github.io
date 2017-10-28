@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+/*
 	$('h1').on('click', function() {
 	  $(this).css({
 	    "color": "#42cbad",
@@ -9,9 +9,9 @@ $(document).ready(function() {
 	});
 
 	$('h3').on('mouseover', function() {
-	  /*$(this).animate({
+	  //$(this).animate({
 	    
-	  }, 1000);*/
+	  //}, 1000);
 	  $(this).css({
 	    "background-color": "rgb(200,200,200)"
 	  });
@@ -21,5 +21,5 @@ $(document).ready(function() {
 	  $(this).css({
 	    "background-color": "rgba(250,250,250, 0.9)"
 	  });
-	});
+	});*/
 });
