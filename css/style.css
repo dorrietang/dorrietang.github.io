@@ -69,7 +69,7 @@ a:hover {
 
 .grid-container {
 	width: 30%;
-	margin: 13px;
+	margin: 1.5%;
 }
 
 .exp-img {
@@ -105,4 +105,25 @@ a:hover {
 	height: 30px;
 }
 
-/* add responsive layout */
+/* Responsive layout */
+
+@media (max-width:1200px) {
+	body {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+@media (max-width:800px) {
+	body {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+@media (max-width:500px) {
+	body {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
