@@ -21,7 +21,6 @@ p {
 a {
 	color: inherit;
 	text-decoration-style: dotted;
-	target: "_blank";
 }
 
 a:hover {
@@ -58,6 +57,14 @@ a:hover {
 	margin-top: 20px;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+#me-contact {
+	font-weight: bold;
+}
+
+#me-contact:hover {
+	color: rgb(136, 197, 233);
 }
 
 /* Experience */ 
